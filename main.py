@@ -6,7 +6,7 @@ pygame.mixer.init()
 
 width, height = 900, 500
 window = pygame.display.set_mode((width, height))
-pygame.display.set_caption("Space Game")
+pygame.display.set_caption("Space Game ")
 
 yellow_hit = pygame.USEREVENT + 1
 red_hit = pygame.USEREVENT + 2
