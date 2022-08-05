@@ -6,7 +6,7 @@ pygame.mixer.init()
 
 width, height = 900, 500
 window = pygame.display.set_mode((width, height))
-pygame.display.set_caption("First Game!")
+pygame.display.set_caption("Space Game")
 
 yellow_hit = pygame.USEREVENT + 1
 red_hit = pygame.USEREVENT + 2
@@ -37,7 +37,7 @@ red_spaceship_image = pygame.image.load(os.path.join('Assets', 'spaceship_red.pn
 red_spaceship = pygame.transform.rotate(
     pygame.transform.scale(red_spaceship_image, (spaceship_width, spaceship_height)), 270)
 
-space = pygame.transform.scale(pygame.image.load(os.path.join('Assets', 'space.png')), (width, height))
+space = pygame.transform.scale(pygame.image.load(os.path.join('Assets', '1212.png')), (width, height))
 
 
 def yellow_handle_movement(key_pressed, yellow):
